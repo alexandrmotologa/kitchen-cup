@@ -9,7 +9,7 @@ public class Application {
 		Cup cupB = new Cup( "Water", 500 );
 
 		cupA.setLiquidVolume( cupA.getLiquidVolume()-50 );
-		cupB.setLiquidVolume( cupA.getLiquidVolume()+50 );
+		cupB.setLiquidVolume( cupB.getLiquidVolume()+50 );
 
 		System.out.printf( "Cup A contains %dMl of %s\n", cupA.getLiquidVolume(), cupA.getLiquidName() );
 		System.out.printf( "Cup B contains %dMl of %s\n", cupB.getLiquidVolume(), cupB.getLiquidName() );
